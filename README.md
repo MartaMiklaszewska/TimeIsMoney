@@ -6,13 +6,13 @@ Aplikacja jest wykonana w android studio. Dane użytkowników i dodane notatki z
 
 ## Funkcjonaloność
 1. Użytkownik po otworzeniu aplikacji może zalogować się do niej za pomocą emaila, konta Google lub telefonu. 
-![Ekran] (1.jpg)
-![Logowanie] (2.jpg)
+![Ekran](https://github.com/MartaMiklaszewska/TimeIsMoney/blob/master/app/src/main/res/drawable/1.jpg)
+![Logowanie](https://github.com/MartaMiklaszewska/TimeIsMoney/blob/master/app/src/main/res/drawable/2.jpg)
 2. Po zalogowaniu się na swoje konto użytkownik może dodać notatkę, zawierającą opis wykonanej pracy i czas, który poświęcił lub zamierza poświęcić na jej wykonanie. Może także oznaczyć status wykonania.
-![Dodanie] (4.jpg)
+![Dodanie](https://github.com/MartaMiklaszewska/TimeIsMoney/blob/master/app/src/main/res/drawable/4.jpg)
 4. Notatki są sortowane w zależności od daty dodania i statusu wykonania. 
-![Notatka] (3.jpg)
+![Notatka](https://github.com/MartaMiklaszewska/TimeIsMoney/blob/master/app/src/main/res/drawable/3.jpg)
 5. Użytkownik może edytować swoje notatki i je usuwać.
-![Edycja] (5.jpg)
-![Usunięcie] (6.jpg) 
+![Edycja](https://github.com/MartaMiklaszewska/TimeIsMoney/blob/master/app/src/main/res/drawable/5.jpg)
+![Usunięcie](https://github.com/MartaMiklaszewska/TimeIsMoney/blob/master/app/src/main/res/drawable/6.jpg) 
 
