@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "653674525224",
+    "firebase_url": "https://timeismoneytim-63bf6.firebaseio.com",
+    "project_id": "timeismoneytim-63bf6",
+    "storage_bucket": "timeismoneytim-63bf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653674525224:android:212091ad96520994413b1d",
+        "android_client_info": {
+          "package_name": "com.example.timeismoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653674525224-9le93ujpeo0c0lvsn0jg3uk41je8jd3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNqHWwLJhSCLDsDe5a6bDxv6IHvsKXoNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653674525224-9le93ujpeo0c0lvsn0jg3uk41je8jd3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
