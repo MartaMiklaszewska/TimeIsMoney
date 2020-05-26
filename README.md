@@ -2,7 +2,7 @@
 
 Aplikacja TimeIsMoney służy do śledzenia postępów i czasu wykonania danej pracy.
 
-Aplikacja jest wykonana w android studio. Dane użytkowników i dodane notatki znajdują się w bazie danych Firebase.
+Aplikacja jest wykonana w Android Studio 3.6.3. Dane użytkowników i dodane notatki znajdują się w bazie danych Firebase.
 
 ## Funkcjonaloność
 1. Użytkownik po otworzeniu aplikacji może zalogować się do niej za pomocą emaila, konta Google lub telefonu. 
