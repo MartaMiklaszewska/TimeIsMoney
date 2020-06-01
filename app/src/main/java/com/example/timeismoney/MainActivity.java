@@ -18,10 +18,13 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GetTokenResult;
 import com.google.firebase.Timestamp;
+
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.series.LineGraphSeries;
 
 
 import androidx.annotation.NonNull;
@@ -43,12 +46,18 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator;
 
 
 public class MainActivity extends AppCompatActivity implements FirebaseAuth.AuthStateListener, WorkRecyclerAdapter.WorkListener {
+
+
+
+
+
 
     private static final String TAG = "MainActivity";
     RecyclerView recyclerView;
@@ -135,11 +144,17 @@ public class MainActivity extends AppCompatActivity implements FirebaseAuth.Auth
         {
             case R.id.action_logout:
                 AuthUI.getInstance().signOut(this);
-
                 return true;
-/*            case R.id.action_profile:
-                Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
-                return true;*/
+            case R.id.action_profile:
+                startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+                return true;
+            case R.id.action_timer:
+               startActivity(new Intent(MainActivity.this, StatsActivity.class));
+               return true;
+            case R.id.action_calendar:
+                setContentView(R.layout.calculator);
+                return true;
+
         }
 
 

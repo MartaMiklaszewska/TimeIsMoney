@@ -20,6 +20,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main {
+            assets {
+                srcDirs 'src/main/assets', 'src/res/anim'
+            }
+        }
+    }
 
 }
 
@@ -42,9 +49,19 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:19.1.1'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
-
+    implementation 'com.google.firebase:firebase-database:19.3.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'it.xabaras.android:recyclerview-swipedecorator:1.2.2'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    implementation 'com.jjoe64:graphview:4.2.2'
+    implementation 'com.applandeo:material-calendar-view:1.0.1'
+    implementation 'com.android.support:appcompat-v7:25.3.1'
+    implementation 'com.android.support:design:23.3.1'
+
+
 }
 
 apply plugin: 'com.google.gms.google-services'

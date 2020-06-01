@@ -6,20 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
+
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circleImageView"
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:background="@color/cardview_dark_background"
         android:padding="10dp"
-        android:src="@android:color/holo_orange_light"
+        android:src="@color/colorAccent"
         app:civ_border_overlay="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.274" />
+        app:layout_constraintVertical_bias="0.274"
+        android:onClick="handleImageClick"/>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/displayEditText"
@@ -37,15 +40,16 @@
     <Button
         android:id="@+id/updateProfileButton"
         style="@style/FirebaseUI.Button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_margin="16dp"
         android:background="@color/cardview_dark_background"
         android:onClick="updateProfile"
         android:text="Update Profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/displayEditText"
         app:layout_constraintVertical_bias="0.876" />
