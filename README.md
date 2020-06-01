@@ -26,6 +26,6 @@ Statystyka przepracowanych godzin
 Funkcja tworzenia wykresów i raportów
 Stworzenie przyjaznego stylistycznie interfejsu
 2. Architektura uruchomieniowa.
-Testy.
-a. Scenariusze testów.
-b. Sprawozdanie z wykonania scenariuszy testów.
+# Testy.
+1. Scenariusze testów.
+2. Sprawozdanie z wykonania scenariuszy testów.
