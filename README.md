@@ -18,14 +18,12 @@ Aplikacja jest wykonana w android studio. Dane użytkowników i dodane notatki z
 * Zadowolenie klientów
 ## Architektura systemu/oprogramowania.
 1. Architektura rozwoju.
-Utowrzenie projektu i podłączenie go do Firebase
-Utworzenie logowania
-Przyjmowanie danych i śledzenie ich w czasie
-Funkcja śledzenia czasu
-Statystyka przepracowanych godzin
-Funkcja tworzenia wykresów i raportów
-Stworzenie przyjaznego stylistycznie interfejsu
+* Utowrzenie projektu i podłączenie go do Firebase
+* Utworzenie logowania
+* Przyjmowanie danych i śledzenie ich w czasie
+* Funkcja śledzenia czasu
+* Stworzenie przyjaznego stylistycznie interfejsu
 2. Architektura uruchomieniowa.
-# Testy.
+### Testy
 1. Scenariusze testów.
 2. Sprawozdanie z wykonania scenariuszy testów.
