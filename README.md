@@ -24,6 +24,9 @@ Aplikacja jest wykonana w android studio. Dane użytkowników i dodane notatki z
 * Funkcja śledzenia czasu
 * Stworzenie przyjaznego stylistycznie interfejsu
 2. Architektura uruchomieniowa.
+* Android Studio
+* Firebase
+* Java
 ## Testy
 ### Scenariusze testów.
 #### Zalogowanie się lub zarejestrowanie przy użyciu emaila:
